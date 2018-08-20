@@ -6,5 +6,5 @@ RUN \
         github.com/mattn/go-sqlite3 \
         github.com/stretchr/testify \
         golang.org/x/lint/golint \
-        github.com/aws/aws-lambda-go \
+        github.com/aws/aws-lambda-go/lambda \
         github.com/reddotpay/api
