@@ -1,6 +1,10 @@
-FROM gianebao/go-mysql-test:latest
+FROM golang:latest
 
 RUN \
-    go get github.com/aws/aws-lambda-go \
-           github.com/reddotpay/api
-
+    go get github.com/jmoiron/sqlx \
+        github.com/go-sql-driver/mysql \
+        github.com/mattn/go-sqlite3 \
+        github.com/stretchr/testify \
+        golang.org/x/lint/golint \
+        github.com/aws/aws-lambda-go \
+        github.com/reddotpay/api
