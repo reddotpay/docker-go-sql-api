@@ -7,4 +7,5 @@ RUN \
         github.com/stretchr/testify \
         golang.org/x/lint/golint \
         github.com/aws/aws-lambda-go/lambda \
-        github.com/reddotpay/api
+        github.com/reddotpay/api \
+        bitbucket.org/liamstask/goose/cmd/goose
